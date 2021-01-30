@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 3s;
+}
+
+.body {
+  background-color: rgba(0, 0, 0, 0.068);
+  background-image: url('../src/paper-background.jpg');
+  background-size: contain;
+
+}
+.App-header {
+  background-color: #282c34;
+  background-color:rgb(50, 26, 2);
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: calc(25px + 2vmin);
+  color: black;
+  font-weight: 600;
+  background-image: url('../src/pexels-mentatdgt-1319854.jpg');
+  background-size: cover;
+  display:flex;
+}
+.App-title {
+  background-color: rgba(0, 0, 0, 0.953);
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+.book-cover {
+  width: 75%;
+  border: solid 4px #00000029;
+  border-radius: 10px;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  margin-right: 90px;
+  justify-content: center;
+  margin-top: 30px;  
+  align-items: space-around;
+}
+.books-avail {
+  font-size: 26px;
+  font-weight: 600;
+}
+.box {
+  border: solid 2px #00000029;
+  list-style: none;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: rgba(223, 224, 219, 0.292);
+  background-color: #afc597be;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.box:hover {
+  background-color: rgba(247, 242, 242, 0.924);
+}
+
+.box-closed {
+  border: solid 2px #00000029;
+  list-style: none;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  justify-content: space-between;
+  background-color: #9ccc65ab;
+
+}
+
+.box-closed:hover {
+  background-color: rgba(247, 242, 242, 0.924);
+}
+
+.col-sm-9 {
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+  max-width: 900px;
+}
+
+.col-sm-2 {
+  padding-left: 1px;
+  padding-right: 1px;  
+  margin-right: 15px;
+  margin-left: 15px;
+  max-width: 400px;
+  justify-content: center;
+
+}
+
+.col-sm-11 {
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-right: 15px;
+  margin-left: 15px;
+  max-width: 1300px;
+}
+
+.hide-detail {
+  display: none;
+}
+
+.book-title, .book-title-small {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.book-title-small {
+  max-width: 800px;
+  min-width: 700px;
+  color:darkgray;
+}
+
+.book-author {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(2, 0, 8);
+  margin-bottom: 3px;
+  margin-left: 15px;
+}
+
+.short-desc {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(1, 1, 22);
+  margin-left: 15px;
+}
+
+.show-detail {
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+.expanded-top {
+  margin-top: 15px;
+}
+
+i {
+  padding-right: 3px;
+  padding-left: 4px;
+}
+.extend-button {
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.open-button, .close-button {
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.extended {
+  margin-left: 60px;
+}
+
+.fixed-footer {
+  bottom: 0;
+  padding-top: 50px;
+}
